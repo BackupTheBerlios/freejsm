@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="AddArticle.java">
+        <attr name="class_dependency_javax.swing.JDialog" stringvalue="AddArticle"/>
+    </fileobject>
+    <fileobject name="AddStockUserDialog.java">
+        <attr name="class_dependency_javax.swing.JDialog" stringvalue="AddStockUserDialog"/>
+    </fileobject>
+    <fileobject name="OpenCommande.java">
+        <attr name="class_dependency_javax.swing.JDialog" stringvalue="OpenCommande"/>
+    </fileobject>
+    <fileobject name="SelectTree.java">
+        <attr name="class_dependency_javax.swing.JDialog" stringvalue="SelectTree"/>
+    </fileobject>
+    <fileobject name="Synchronize.java">
+        <attr name="class_dependency_java.lang.Thread" stringvalue="Synchronize.SendLoop"/>
+        <attr name="class_dependency_javax.swing.JDialog" stringvalue="Synchronize"/>
+    </fileobject>
+</attributes>

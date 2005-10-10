@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="JENPanel.java">
+        <attr name="class_dependency_javax.swing.JPanel" stringvalue="JENPanel"/>
+    </fileobject>
+    <fileobject name="PaneCommande.java">
+        <attr name="class_dependency_javax.swing.JPanel" stringvalue="PaneCommande"/>
+    </fileobject>
+    <fileobject name="PaneEntree.java">
+        <attr name="class_dependency_javax.swing.JPanel" stringvalue="PaneEntree"/>
+    </fileobject>
+    <fileobject name="PaneProduits.java">
+        <attr name="class_dependency_javax.swing.JPanel" stringvalue="PaneProduits"/>
+    </fileobject>
+    <fileobject name="PaneProduitsUser.java">
+        <attr name="class_dependency_javax.swing.JPanel" stringvalue="PaneProduitsUser"/>
+    </fileobject>
+    <fileobject name="PaneSortie.java">
+        <attr name="class_dependency_javax.swing.JPanel" stringvalue="PaneSortie"/>
+    </fileobject>
+    <fileobject name="PaneStock.java">
+        <attr name="class_dependency_javax.swing.JPanel" stringvalue="PaneStock"/>
+    </fileobject>
+    <fileobject name="PaneTVA.java">
+        <attr name="class_dependency_javax.swing.JPanel" stringvalue="PaneTVA"/>
+    </fileobject>
+    <fileobject name="PrincipaleGUI.java">
+        <attr name="class_dependency_javax.swing.JFrame" stringvalue="PrincipaleGUI"/>
+    </fileobject>
+</attributes>

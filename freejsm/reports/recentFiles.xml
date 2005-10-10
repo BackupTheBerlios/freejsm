@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- iReport 2 file list - Fri Jun 03 17:01:05 CEST 2005 -->
+<!DOCTYPE iReportFilesList PUBLIC "-//iReport/DTD iReport Configuration//EN" "http://ireport.sourceforge.net/dtds/iReportFilesList.dtd">
+<iReportFilesList>
+	<iReportFile><![CDATA[/home/nahuel/Desktop/FreeJSM/reports/stocks.xml]]></iReportFile>
+	<iReportFile><![CDATA[/home/nahuel/Desktop/FreeJSM/reports/nomstock.xml]]></iReportFile>
+	<iReportFile><![CDATA[/home/nahuel/Desktop/FreeJSM/reports/inventaire.xml]]></iReportFile>
+	<iReportFile><![CDATA[/home/alexandre/Projects/DEKLIK-FACTURATION/rapports/detail_facture.xml]]></iReportFile>
+	<iReportFile><![CDATA[/home/alexandre/Projects/USAT/rapports/facture.xml]]></iReportFile>
+</iReportFilesList>

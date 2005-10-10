@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
+
+<!-- 
+    A sample installation file.
+    Use it as a base for your own installers :-)
+    
+    To compile it :
+    - go in the bin directory where you installed IzPack
+    - call "compile ../sample/install.xml -b ../sample"
+-->
+
+<installation version="1.0">
+
+    <!-- 
+        The info section.
+        The meaning of the tags should be natural ...
+    -->
+    <info>
+        <appname>FreeJSM</appname>
+        <appversion>0.0.1</appversion>
+        <authors>
+            <author name="develog" email="contact@develog.com"/>
+        </authors>
+        <url>http://www.develog.com/</url>
+    </info>
+    
+    <!-- 
+        The gui preferences indication.
+        Sets the installer window to 640x480. It will not be able to change the size.
+    -->
+    <guiprefs width="640" height="480" resizable="no">
+    <laf name="metouia">
+        <os family="unix" />
+    </laf>
+    <laf name="metouia">
+        <os family="windows" />
+    </laf>
+    </guiprefs>
+
+    
+    <!-- 
+        The locale section.
+        Asks here to include the English and French langpacks.
+    -->
+    <locale>
+        <langpack iso3="fra"/>
+    </locale>
+    
+    
+    <!-- 
+        The panels section.
+        We indicate here which panels we want to use. The order will be respected.
+    -->
+    <panels>
+        <panel classname="HelloPanel"/>
+        <panel classname="TargetPanel"/> 
+        <panel classname="InstallPanel"/>
+        <panel classname="FinishPanel"/>
+    </panels>
+    
+    <!-- 
+        The packs section.
+        We specify here our packs.
+    -->
+    <packs>
+        <pack name="lib" required="yes">
+            <description>Librairies</description>
+            <file src="lib" targetdir="$INSTALL_PATH"/>
+	    <exclude src="CVS" />
+        </pack>
+        <pack name="bin" required="yes">
+            <description>Lanceurs</description>
+            <file src="bin" targetdir="$INSTALL_PATH"/>
+	    <exclude src="CVS" />
+        </pack>
+        <pack name="etc" required="yes">
+            <description>Fichiers de configuration</description>
+            <file src="etc" targetdir="$INSTALL_PATH"/>
+        </pack>
+        <pack name="engine" required="yes">
+            <description>Moteur de l'application</description>
+            <file targetdir="$INSTALL_PATH" src="USAT.jar"/>
+        </pack>
+
+    </packs>
+    
+</installation>

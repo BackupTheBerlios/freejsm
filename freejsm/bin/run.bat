@@ -1,0 +1,1 @@
+c:\jre\bin\java -classpath .;..\kunststoff.jar;..\mysql-connector-java-2.0.14-bin.jar;..\lib USAT
